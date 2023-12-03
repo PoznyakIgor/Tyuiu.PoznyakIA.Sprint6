@@ -35,10 +35,17 @@ namespace Tyuiu.PoznyakIA.Sprint6.Task0.V10
                 MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void textBoxResult_PIA_TextChanged(object sender, EventArgs e)
+        private void buttonQueshion_PIA_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Таск 0 выполнил студент группы ИСТНб-23-1 Позняк Игорь Андреевич");
+        }
 
+        private void textBoxWinX_PIA_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar != ',')
+            {
+                e.Handled = true;
+            }
         }
 
         private void textBoxWinX_PIA_TextChanged(object sender, EventArgs e)
@@ -46,17 +53,9 @@ namespace Tyuiu.PoznyakIA.Sprint6.Task0.V10
 
         }
 
-        private void textBoxWinX_PIA_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBoxWinX_PIA_KeyPress_1(object sender, KeyPressEventArgs e)
         {
-            if(e.KeyChar != ',')
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void buttonQueshion_PIA_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("")
+            
         }
     }
 
