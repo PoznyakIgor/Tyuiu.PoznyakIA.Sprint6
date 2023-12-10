@@ -37,11 +37,11 @@ namespace Tyuiu.PoznyakIA.Sprint6.Task6.V15
             this.groupBoxUslovie_PIA = new System.Windows.Forms.GroupBox();
             this.textBoxTask_PIA = new System.Windows.Forms.TextBox();
             this.groupBoxInput_PIA = new System.Windows.Forms.GroupBox();
+            this.textBoxInputData_PIA = new System.Windows.Forms.TextBox();
             this.groupBoxOutputData_PIA = new System.Windows.Forms.GroupBox();
             this.textBoxResult_PIA = new System.Windows.Forms.TextBox();
             this.openFileDialog_PIA = new System.Windows.Forms.OpenFileDialog();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.textBoxInputData_PIA = new System.Windows.Forms.TextBox();
             this.groupBoxUslovie_PIA.SuspendLayout();
             this.groupBoxInput_PIA.SuspendLayout();
             this.groupBoxOutputData_PIA.SuspendLayout();
@@ -108,6 +108,14 @@ namespace Tyuiu.PoznyakIA.Sprint6.Task6.V15
             this.groupBoxInput_PIA.TabStop = false;
             this.groupBoxInput_PIA.Text = "Ввод:";
             // 
+            // textBoxInputData_PIA
+            // 
+            this.textBoxInputData_PIA.Location = new System.Drawing.Point(6, 16);
+            this.textBoxInputData_PIA.Multiline = true;
+            this.textBoxInputData_PIA.Name = "textBoxInputData_PIA";
+            this.textBoxInputData_PIA.Size = new System.Drawing.Size(381, 267);
+            this.textBoxInputData_PIA.TabIndex = 0;
+            // 
             // groupBoxOutputData_PIA
             // 
             this.groupBoxOutputData_PIA.Controls.Add(this.textBoxResult_PIA);
@@ -131,14 +139,6 @@ namespace Tyuiu.PoznyakIA.Sprint6.Task6.V15
             // 
             this.openFileDialog_PIA.FileName = "openFileDialog1";
             // 
-            // textBoxInputData_PIA
-            // 
-            this.textBoxInputData_PIA.Location = new System.Drawing.Point(6, 16);
-            this.textBoxInputData_PIA.Multiline = true;
-            this.textBoxInputData_PIA.Name = "textBoxInputData_PIA";
-            this.textBoxInputData_PIA.Size = new System.Drawing.Size(381, 267);
-            this.textBoxInputData_PIA.TabIndex = 0;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -151,7 +151,7 @@ namespace Tyuiu.PoznyakIA.Sprint6.Task6.V15
             this.Controls.Add(this.buttonCheckFile_PIA);
             this.Controls.Add(this.buttonDone_PIA);
             this.Name = "FormMain";
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 6 | Вариант 15 | Позняк И.А";
             this.groupBoxUslovie_PIA.ResumeLayout(false);
             this.groupBoxUslovie_PIA.PerformLayout();
             this.groupBoxInput_PIA.ResumeLayout(false);
